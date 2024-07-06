@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
           onHttpError: (HttpResponseError error) {},
           onWebResourceError: (WebResourceError error) {},
           onNavigationRequest: (NavigationRequest request) {
-            if (request.url.startsWith('https://www.youtube.com/')) {
+            if (request.url.startsWith('https://smart-courses.org/')) {
               return NavigationDecision.prevent;
             }
             return NavigationDecision.navigate;
